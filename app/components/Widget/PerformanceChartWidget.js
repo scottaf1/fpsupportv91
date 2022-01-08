@@ -48,7 +48,7 @@ function PerformanceChartWidget(props) {
               </Avatar>
               <Typography variant="h6">
                 <span className={classes.blueText}>40</span>
-                <Typography>Cases</Typography>
+                <Typography>All Cases</Typography>
               </Typography>
             </li>
             <li>
