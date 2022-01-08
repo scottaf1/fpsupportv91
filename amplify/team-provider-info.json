@@ -1,0 +1,46 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fpsupportv5-dev-155153-authRole",
+      "UnauthRoleArn": "arn:aws:iam::821020061217:role/amplify-fpsupportv5-dev-155153-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::821020061217:role/amplify-fpsupportv5-dev-155153-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fpsupportv5-dev-155153-deployment",
+      "UnauthRoleName": "amplify-fpsupportv5-dev-155153-unauthRole",
+      "StackName": "amplify-fpsupportv5-dev-155153",
+      "StackId": "arn:aws:cloudformation:us-east-1:821020061217:stack/amplify-fpsupportv5-dev-155153/0bc33870-14cc-11ec-aacf-0a13274dcdef",
+      "AmplifyAppId": "d1yae6yn1dk4p1"
+    },
+    "categories": {
+      "storage": {
+        "SupportCases": {
+          "tableName": "SupportCases",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:821020061217:table/SupportCases",
+          "partitionKeyName": "CaseId",
+          "partitionKeyType": "S",
+          "sortKeyName": "CreatedDate",
+          "sortKeyType": "S"
+        },
+        "kswarm20casesprod": {
+          "tableName": "kswarm20casesprod",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:821020061217:table/kswarm20casesprod",
+          "partitionKeyName": "caseid",
+          "partitionKeyType": "S",
+          "sortKeyName": "vertid",
+          "sortKeyType": "S"
+        }
+      },
+      "auth": {
+        "cognito7e94ae36": {}
+      },
+      "function": {
+        "fpsupportv56f8555cf": {
+          "deploymentBucketName": "amplify-fpsupportv5-dev-155153-deployment",
+          "s3Key": "amplify-builds/fpsupportv56f8555cf-772b2b70346841533175-build.zip"
+        }
+      }
+    }
+  }
+}
